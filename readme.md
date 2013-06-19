@@ -32,5 +32,5 @@ Execute Monday Mornings at 8:05<br>
 Every 10 minutes all day on your birthday<br>
 */10 * D M * /usr/local/bin/nice_things.rb
 
-If you find yourself not wanting encouragement<br>
+5) If you find yourself not wanting encouragement<br>
 open "crontab -e" and remove your event
