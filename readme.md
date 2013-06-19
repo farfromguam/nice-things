@@ -10,7 +10,7 @@ a fun little app that says nice things to you.
 To encourage you on a regilar basis, do these things.
 
 1) save the file on your system<br>
-`/usr/local/bin`
+`sudo curl https://raw.github.com/farfromguam/nice-things/master/nice_things.rb > /usr/local/bin/nice_things.rb`
 
 2) change the mode of the file to executable<br>
 `chmod +x /usr/local/bin/nice_things.rb`
