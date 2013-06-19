@@ -10,10 +10,13 @@ To encourage you on a regilar basis, do these things.
 1) save the file on your system
 usr/local/bin
 
-2) Edit your local crontab with the comand
+2) change the mode of the file to executable
+"chmod +x /usr/local/bin/nice_things.rb"
+
+3) Edit your local crontab with the comand
 "crontab -e"
 
-3) Add one of these crontab entries
+4) Add one of these crontab entries
 
 Execute Every 5 minutes:
 */5 * * * * /usr/local/bin/nice_things.rb

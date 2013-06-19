@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 compliment = [
 "You have very smooth hair.",
 "You deserve a promotion.",
