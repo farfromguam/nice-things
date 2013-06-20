@@ -16,7 +16,7 @@ To encourage you on a regilar basis, do these things.
 `chmod +x /usr/local/bin/nice_things.rb`
 
 3) Edit your local crontab with the comand<br>
-`crontab -e`
+`sudo crontab -e`
 
 4) Add one of these crontab entries
 
@@ -32,5 +32,8 @@ Execute Monday Mornings at 9:05<br>
 Every 10 minutes all day on your birthday<br>
 `*/10 * D M * /usr/local/bin/nice_things.rb`
 
-5) If you find yourself not wanting encouragement<br>
-run `crontab -e` and remove your event
+7) Check that your crontab has been saved
+`sudo crontab -l`
+
+6) If you find yourself not wanting encouragement<br>
+run `sudo crontab -e` and remove your event
