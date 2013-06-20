@@ -26,11 +26,11 @@ Execute Every 5 minutes:<br>
 Execute Every Hour:<br>
 `0 */1 * * * /usr/local/bin/nice_things.rb`
 
-Execute Monday Mornings at 8:05<br>
+Execute Monday Mornings at 9:05<br>
 `5 9 * * 1 /usr/local/bin/nice_things.rb`
 
 Every 10 minutes all day on your birthday<br>
 `*/10 * D M * /usr/local/bin/nice_things.rb`
 
 5) If you find yourself not wanting encouragement<br>
-`open "crontab -e" and remove your event`
+run `crontab -e` and remove your event
